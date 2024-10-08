@@ -1,2 +1,2 @@
 # Yummy
-Its my first learning project
+It's my first learning project
