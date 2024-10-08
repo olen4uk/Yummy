@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    height: 79px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    }
+header nav ul li {
+        position: relative;
+        float: left;
+    }
+
+header nav ul li a {
+     list-style: none;
+     text-decoration: none;
+     padding: 15px;
+     color: rgba(119, 78, 46, 1);
+     font-size: 16px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 474px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+
+}
+.main h2 {
+    font-size: 110px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(243, 127, 52, 1);
+    font-weight: 700;
+}
+.main .pug {
+    color: rgba(119, 78, 46, 1);
+    margin-bottom: 60px;
+}
+.main p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color:rgba(119, 78, 46, 1);
+    margin-bottom: 60px;
+}
+.text {
+    padding-top: 30px;
+    width: 575px;
+    height: 474px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    width: 343px;
+    height: 69px;
+    background-color:rgba(119, 78, 46, 1);
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    transform: scale(1.02);
+    background-color:rgb(167, 108, 62);
+}
+.button ul li {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.love {
+    margin-top: 200px;
+    background-color:rgba(255, 249, 234, 1);
+    width: 100%;
+    height: 911px;
+    padding-top: 172px;
+    margin-bottom: 185px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.love h3 {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 72px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(243, 127, 52, 1);
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.love h3 span {
+    color: rgba(119, 78, 46, 1);
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    width: 100%;
+    height: 462px;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 33%;
+    background-color: white;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+.card img {
+    margin-bottom: 36px;
+}
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(119, 78, 46, 1);
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(119, 78, 46, 1);
+    text-align: center;
+    line-height: 150%;
+    font-family: inherit;
+    letter-spacing: 0.028em;
+}
+.container-tip {
+    width: 1170px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.content {
+    width: 575px;
+    height: 635px;
+    font-size: 72px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.content h4 {
+    max-width: 440px;
+}
+.color-orange {
+    color: rgba(243, 127, 52, 1);
+}
+.color-brown {
+    color: rgba(119, 78, 46, 1);
+}
+.content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: inherit;
+    letter-spacing: 0.028em;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: inherit;
+    letter-spacing: 0.028em;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.content ul {
+    list-style-type: disc;
+    padding-left: 24px;
+}
+.content ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: inherit;
+    letter-spacing: 0.028em;
+    text-align: start;
+}
+.images-tip {
+    width: 575px;
+    height: 722px;
+}
+footer {
+    background-color:rgba(119, 78, 46, 1);
+    width: 100%;
+    height: 180px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family:"Montserrat", Helvetica, sans-serif;
+    letter-spacing: 0.020em;
+    color: white;
+}
+ 
+
+
+
+
+
+
+
+
+
+
